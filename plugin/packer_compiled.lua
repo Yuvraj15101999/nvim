@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/yuvraj/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["auto-save.nvim"] = {
+    loaded = true,
+    path = "/home/yuvraj/.local/share/nvim/site/pack/packer/start/auto-save.nvim",
+    url = "https://github.com/Pocco81/auto-save.nvim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/yuvraj/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -134,10 +139,35 @@ _G.packer_plugins = {
     path = "/home/yuvraj/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/home/yuvraj/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-dap-go"] = {
+    loaded = true,
+    path = "/home/yuvraj/.local/share/nvim/site/pack/packer/start/nvim-dap-go",
+    url = "https://github.com/leoluz/nvim-dap-go"
+  },
+  ["nvim-dap-ui"] = {
+    loaded = true,
+    path = "/home/yuvraj/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
+  ["nvim-dap-virtual-text"] = {
+    loaded = true,
+    path = "/home/yuvraj/.local/share/nvim/site/pack/packer/start/nvim-dap-virtual-text",
+    url = "https://github.com/theHamsta/nvim-dap-virtual-text"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/yuvraj/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/yuvraj/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -150,6 +180,11 @@ _G.packer_plugins = {
     needs_bufread = false,
     path = "/home/yuvraj/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects",
     url = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/yuvraj/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["onedark.nvim"] = {
     loaded = true,
@@ -165,6 +200,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/yuvraj/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope-dap.nvim"] = {
+    loaded = true,
+    path = "/home/yuvraj/.local/share/nvim/site/pack/packer/start/telescope-dap.nvim",
+    url = "https://github.com/nvim-telescope/telescope-dap.nvim"
   },
   ["telescope-fzf-native.nvim"] = {
     cond = { true },
